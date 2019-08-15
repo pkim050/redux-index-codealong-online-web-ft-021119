@@ -14,8 +14,8 @@ class CreateTodo extends Component {
     event.preventDefault();
     this.props.addTodo(this.state)
     this.setState({
-    text: '',
-  })
+      text: '',
+    })
   }
 
   handleChange(event) {
